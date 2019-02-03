@@ -16,7 +16,7 @@ addButton.addEventListener('click', event => {
     addItem1.textContent = 'テスト' + index + '-1';
     addItem2.textContent = 'テスト' + index + '-2';
 
-    //生成したtr要素にtdに生成したtd要素を追加
+    //生成したtr要素に生成したtd要素を追加
     addItem.appendChild(addItem1);
     addItem.appendChild(addItem2);
 
